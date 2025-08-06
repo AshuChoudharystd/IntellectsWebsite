@@ -175,14 +175,13 @@ const JoinUs: React.FC = () => {
                 Applications are open for the 2025 recruitment cycle. Don't miss your chance 
                 to be part of something amazing!
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center"
-              onClick={() => navigate('/recruitment-form')}>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 px-8 py-4 bg-white text-blue-900 rounded-lg hover:bg-blue-900 hover:text-white   transition-colors duration-200 text-lg font-semibold"
                 >
-                  <span>Apply Now</span>
+                  <span><a href="https://docs.google.com/forms/d/e/1FAIpQLScCKCGudhMu4clR_OzIYdnTpVHn_6pDyif3cHPCrYGlKHTqBA/viewform?usp=header">Apply Now</a></span>
                   <ArrowRight className="h-5 w-5" />
                 </a>
                 <button

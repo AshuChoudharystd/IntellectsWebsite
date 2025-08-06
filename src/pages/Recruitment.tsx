@@ -6,6 +6,7 @@ import { User, Mail, Phone, Code, Calendar, FileText, Send, CheckCircle, AlertCi
 // This is used to connect to the backend API for form submission
 // 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
+console.log('Backend URL:', backendUrl);
 
 interface FormData {
   fullName: string;

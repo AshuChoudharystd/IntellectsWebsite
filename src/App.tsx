@@ -33,7 +33,6 @@ function App() {
             </main>
           }
         />
-        <Route path="/recruitment-form" element={<Recruitment />} />
       </Routes>
     
     </div>
