@@ -8,6 +8,9 @@ export interface TeamMember {
   github?: string;
 }
 
+import JaatSaab from '../../public/JaatSaab.jpg';
+import sabrish from '../../public/sabrishChutiya.jpg';
+
 export const teamMembers: TeamMember[] = [
   {
     id: '1',
@@ -68,7 +71,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Sabrishvarshan',
     role: 'Technical Lead',
     department: 'Technical',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: sabrish,
     linkedin: 'https://linkedin.com/in/sabrishvarshan',
     github: 'https://github.com/sabrishvarshan'
   },
@@ -77,7 +80,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Ashu Choudhary',
     role: 'Technical Co Lead',
     department: 'Technical',
-    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: JaatSaab,
     linkedin: 'https://linkedin.com/in/ashuchoudhary',
     github: 'https://github.com/ashuchoudhary'
   },
@@ -116,15 +119,6 @@ export const teamMembers: TeamMember[] = [
     image: '/social media colead.JPG',
     linkedin: 'https://www.linkedin.com/in/youwee699?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     github: 'https://github.com/youwee69'
-  },
-  {
-    id: '13',
-    name: 'Shreya Shree G',
-    role: 'Insight Curator',
-    department: 'Leadership',
-    image: 'https://images.pexels.com/photos/1181324/pexels-photo-1181324.jpeg?auto=compress&cs=tinysrgb&w=400',
-    linkedin: 'https://linkedin.com/in/shreyashreeg',
-    github: 'https://github.com/shreyashreeg'
   },
   {
     id: '14',
